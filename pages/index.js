@@ -14,9 +14,9 @@ export default function Home() {
      <Nav />
       </Grid>
 
-     <Grid md={12} sx={{overflowY:"scroll",padding:"0 50px",background:"black"}}>
+     <Grid md={12} sx={{overflowY:"scroll",padding:"0 50px",background:"black",height:"600vh"}}>
        <HomePage/>
-      
+        {/* <MyPhotos/> */}
      </Grid>
     </Box>
   )
