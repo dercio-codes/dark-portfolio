@@ -8,9 +8,9 @@ export default function Nav() {
   return (
     <Box
       style={{
-        height: "100vh",
+
         background: "#111",
-        flex: 1,
+         height:"100%"
       }}
     >
       <img
@@ -18,8 +18,8 @@ export default function Nav() {
         alt=""
         style={{
           width: "100%",
-          opacity:'0.5',
-          filter:'greyscale(90%)'
+          opacity: '0.5',
+          filter: 'greyscale(90%)'
         }}
       />
       <Box
