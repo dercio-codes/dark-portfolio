@@ -6,16 +6,20 @@ import Typography from "@mui/material/Typography";
 
 const HomePage = () => {
   return (
-      <Box sx={{height:"100vh",background:"black"}}>
+      <Box sx={{minHeight:"180vh",background:"black",marginBottom:'16px'}}>
           <Typography variant="h3" align="center" sx={{color:"white",margin:"30px 0"}}>
-               IM JOHN DOE
-          </Typography>
+               IM JOHN DOE 
+          </Typography> 
     
           <Typography variant="h6" align="center" sx={{color:"white",margin:"30px 0"}}>
           Photographer and Web Designer.
-          </Typography>
-  
-          <img src="man_smoke.jpg" alt="" width="100%" />
+          </Typography> 
+          <Box sx={{
+            height:"180vh", 
+            background:'pink' 
+          }} >
+          <img src="man_smoke.jpg" alt="" width="100%" height="100%" style={{ objectFit:'cover'}} />
+          </Box>
           
       </Box>
   )
