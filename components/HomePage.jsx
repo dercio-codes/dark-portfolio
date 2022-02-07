@@ -10,6 +10,11 @@ const HomePage = () => {
           <Typography variant="h3" align="center" sx={{color:"white",margin:"30px 0"}}>
                IM JOHN DOE
           </Typography>
+    
+          <Typography variant="h6" align="center" sx={{color:"white",margin:"30px 0"}}>
+          Photographer and Web Designer.
+          </Typography>
+  
           <img src="man_smoke.jpg" alt="" width="100%" />
           
       </Box>

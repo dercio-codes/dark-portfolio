@@ -9,13 +9,14 @@ export default function Home() {
     <Box style={{
       display:'flex'
     }}>
+      
       <Grid md={2} sx={{height:"100vh"}}>
-
      <Nav />
       </Grid>
+
      <Grid md={12} sx={{overflowY:"scroll",padding:"0 50px",background:"black"}}>
        <HomePage/>
-      {/* <MyPhotos /> */}
+      
      </Grid>
     </Box>
   )
