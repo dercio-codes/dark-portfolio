@@ -6,25 +6,30 @@ import HomePage from "../components/HomePage";
 
 export default function Home() {
   return (
-    <Box
-      style={{
-        display: "flex",
-      }}
-    >
-      <Grid md={2} sx={{ height: "100vh" , position:'sticky',left:0 , top:0}}>
-        <Nav />
-      </Grid>
-      <Grid
-        md={12}
-        sx={{
-          minHeight: "100vh",
-          padding: "0 50px",
-          background: "black",
+    <Grid container spacing={1}>
+      <Box
+        style={{
+          display: "flex",
         }}
       >
-        <HomePage />
-        <MyPhotos />
-      </Grid>
-    </Box>
+        <Grid
+          md={2}
+          sx={{ height: "100vh", position: "sticky", left: 0, top: 0 }}
+        >
+          <Nav />
+        </Grid>
+        <Grid
+          md={12}
+          sx={{
+            minHeight: "100vh",
+            padding: "100px",
+            background: "black",
+          }}
+        >
+          <HomePage />
+          <MyPhotos />
+        </Grid>
+      </Box>
+    </Grid>
   );
 }
