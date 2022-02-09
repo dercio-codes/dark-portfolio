@@ -1,5 +1,4 @@
 import Nav from "../components/Nav";
-import MyPhotos from "../components/MyPhotos";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import HomePage from "../components/HomePage";
