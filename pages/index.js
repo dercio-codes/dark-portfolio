@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import HomePage from "../components/HomePage";
 import About from "../components/About";
 import MyPhotos from "../components/MyPhotos";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
           <HomePage />
           <About/>
           <MyPhotos />
+          <Contact />
         </Grid>
       </Box>
     </Grid>
