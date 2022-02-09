@@ -24,8 +24,8 @@ export default function Home() {
         }}
       >
         <HomePage />
-        <MyPhotos />
         <About/>
+       
       </Grid>
     </Box>
   );
