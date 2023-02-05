@@ -109,7 +109,7 @@ export default function Contact() {
         <Typography variant="p" sx={{
           color:'#aaa'
         }}>
-          Let's get in touch. Send me a message:
+          {" Let's get in touch. Send me a message:"}
         </Typography>
       </Stack>
 
